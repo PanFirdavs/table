@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For Icons  -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <nav>
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <ul id="menuList">
+            <li><a class="btn"  href="#savollar">Savollaringiz</a></li>
+            <li><a class="btn"  href="">Ariza qoldirish</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="icon ion-md-menu" onclick="toggleMenu()"></i>
+          
+        </div>
+    </nav>
+
+   <section class="table_section1">
+    <h1>BAKALAVR</h1>
+    <table class="table">
+        <thead>
+            <tr>
+             <th>№</th>
+             <th>YO'NALISH</th>
+             <th>SIRTQI</th>
+             <th>KUNDUZGI</th>
+             <th>TA'LIM TILI
+            </th>
+            </tr>
+        </thead>
+        <tbody>
+              <tr>
+                    <td data-label="№">1</td>
+                    <td data-label="YO'NALISH">BUXGALTERIYA HISOBI VA AUDIT</td>
+                    <td data-label="SIRTQI">13.500.000 </td>
+                    <td data-label="KUNDUZGI">19.500.000</td>
+                    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+              </tr>
+   
+              <tr>
+                <td data-label="№">2</td>
+                <td data-label="YO'NALISH"> DASTURIY INJINIRING</td>
+                <td data-label="SIRTQI">13.500.000 </td>
+                <td data-label="KUNDUZGI">19.500.000</td>
+                <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+          </tr>
+   
+          <tr>
+            <td data-label="№">3</td>
+            <td data-label="YO'NALISH">IQTISODIYOT</td>
+            <td data-label="SIRTQI">13.500.000 </td>
+            <td data-label="KUNDUZGI">19.500.000</td>
+            <td data-label="TA'LIM TILI">O'ZBEK, RUS VA INGLIZ TILIDA
+            </td>
+      </tr>
+   
+      <tr>
+        <td data-label="№">4</td>
+        <td data-label="YO'NALISH">KADASTR</td>
+        <td data-label="SIRTQI">13.500.000 </td>
+        <td data-label="KUNDUZGI">19.500.000</td>
+        <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+  </tr>
+
+
+  <tr>
+    <td data-label="№">5</td>
+    <td data-label="YO'NALISH">KOMPYUTER INJINIRINGI</td>
+    <td data-label="SIRTQI">13.500.000 </td>
+    <td data-label="KUNDUZGI">19.500.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+</tr>
+
+
+<tr>
+    <td data-label="№">6</td>
+    <td data-label="YO'NALISH">MAKTABGACHA TA’LIM</td>
+    <td data-label="SIRTQI">12.000.000</td>
+    <td data-label="KUNDUZGI">17.000.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+</tr>
+
+
+<tr>
+    <td data-label="№">7</td>
+    <td data-label="YO'NALISH">MARKETING</td>
+    <td data-label="SIRTQI">13.500.000 </td>
+    <td data-label="KUNDUZGI">19.500.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS VA INGLIZ TILIDA</td>
+</tr>
+
+
+<tr>
+    <td data-label="№">8</td>
+    <td data-label="YO'NALISH">MENEJMENT</td>
+    <td data-label="SIRTQI">13.500.000 </td>
+    <td data-label="KUNDUZGI">19.500.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS VA INGLIZ TILIDA</td>
+</tr>
+
+
+<tr>
+    <td data-label="№">9</td>
+    <td data-label="YO'NALISH">MEXATRONIKA VA ROBOTOTEXNIKA</td>
+    <td data-label="SIRTQI">13.500.000 </td>
+    <td data-label="KUNDUZGI">19.500.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+</tr>
+
+
+<tr>
+    <td data-label="№">10</td>
+    <td data-label="YO'NALISH">MOLIYA VA MOLIYAVIY TEXNALOGIYALAR </td>
+    <td data-label="SIRTQI">13.500.000 </td>
+    <td data-label="KUNDUZGI">19.500.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+</tr>
+
+
+<tr>
+    <td data-label="№">11</td>
+    <td data-label="YO'NALISH">PSIXOLOGIYA </td>
+    <td data-label="SIRTQI">13.500.000 </td>
+    <td data-label="KUNDUZGI">19.500.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+</tr>
+
+
+<tr>
+    <td data-label="№">12</td>
+    <td data-label="YO'NALISH">SOLIQLAR VA SOLIQQA TORTISH</td>
+    <td data-label="SIRTQI">13.500.000 </td>
+    <td data-label="KUNDUZGI">19.500.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+</tr>
+
+        </tbody>
+      </table>
+
+   </section>
+   
+   <section class="table_section2">
+    <h1>MAGISTRATURA</h1>
+    <table class="table">
+        <thead>
+            <tr>
+             <th>№</th>
+             <th>YO'NALISH</th>
+             <th>SIRTQI</th>
+             <th>KUNDUZGI</th>
+             <th>TA'LIM TILI
+            </th>
+            </tr>
+        </thead>
+        <tbody>
+              <tr>
+                    <td data-label="№">1</td>
+                    <td data-label="YO'NALISH">BUXGALTERIYA HISOBI VA AUDIT</td>
+                    <td data-label="SIRTQI">13.500.000 </td>
+                    <td data-label="KUNDUZGI">19.500.000</td>
+                    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+              </tr>
+   
+              <tr>
+                <td data-label="№">2</td>
+                <td data-label="YO'NALISH"> DASTURIY INJINIRING</td>
+                <td data-label="SIRTQI">13.500.000 </td>
+                <td data-label="KUNDUZGI">19.500.000</td>
+                <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+          </tr>
+   
+          <tr>
+            <td data-label="№">3</td>
+            <td data-label="YO'NALISH">IQTISODIYOT</td>
+            <td data-label="SIRTQI">13.500.000 </td>
+            <td data-label="KUNDUZGI">19.500.000</td>
+            <td data-label="TA'LIM TILI">O'ZBEK, RUS VA INGLIZ TILIDA
+            </td>
+      </tr>
+   
+      <tr>
+        <td data-label="№">4</td>
+        <td data-label="YO'NALISH">KADASTR</td>
+        <td data-label="SIRTQI">13.500.000 </td>
+        <td data-label="KUNDUZGI">19.500.000</td>
+        <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+  </tr>
+
+
+  <tr>
+    <td data-label="№">5</td>
+    <td data-label="YO'NALISH">KOMPYUTER INJINIRINGI</td>
+    <td data-label="SIRTQI">13.500.000 </td>
+    <td data-label="KUNDUZGI">19.500.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+</tr>
+
+
+<tr>
+    <td data-label="№">6</td>
+    <td data-label="YO'NALISH">MAKTABGACHA TA’LIM</td>
+    <td data-label="SIRTQI">12.000.000</td>
+    <td data-label="KUNDUZGI">17.000.000</td>
+    <td data-label="TA'LIM TILI">O'ZBEK, RUS TILIDA</td>
+</tr>
+
+
+        </tbody>
+      </table>
+
+   </section>
+    
+   <section class="new-shartlar">
+    <div class="container-new group">
+		<div class="grid-1-5">
+			<h1>1</h1>
+            <h4>Ro'yxatdan o'tish</h4>
+			<p>
+                online ariza orqali ro'yxatdan o'tish va kerakli ma'lumotlarni so'ralgan bo'limlarga kiritishingiz talab etiladi.
+            </p>
+		</div>
+		<div class="grid-1-5">
+			<h1>2</h1>
+            <h4>Imtihonlar</h4>
+            <p>
+                Institut ichki imtihonida qatnashishingiz yoki 
+                UZBMB(DTM) natijasi orqali hujjat topshirishingiz mumkin.
+            </p>
+
+			
+		</div>
+		<div class="grid-1-5">
+			<h1>3</h1>
+            <h4>Shartnoma</h4>
+            <p>
+                Institut talabasiga aylanganingizdan so'ng: 
+                Talabalik shartnomasini online yoki offline tarzda olishingiz mumkin.
+            </p>
+
+				
+		</div>
+		<div class="grid-1-5">
+			<h1>4</h1>
+            <h4>Kontrakt to'lovi</h4>
+            <p>
+                Talabalik shartnomasi asosida belgilangan muddatda kontrakt miqdorining boshlang'ich 25% to'lovini amalga oshirishingiz zarur.
+            </p>
+
+
+		</div>
+		<div class="grid-1-5">
+			<h1>5</h1>
+			<h4>Hujjatlar</h4>
+            <p>
+                Institut tomonidan talab etilgan hujjatlar asl nusxasi va qo'shimcha nusxalarni institut arxiv bo'limiga topshirishingiz zarur.
+            </p>
+
+			
+		</div>		
+	</div>
+  </section>
+     
+    
+   <section class="accordion_section" id="savollar">
+     <div class="accordion_container">
+        <h1>SAVOLLAR</h1>
+       <div class="accordion">
+        <div class="accordion-item" id="question1">
+            <a href="#question1" class="accordion-link">
+                TMII litsenziyaga egami? 
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Ha, institut O'zbekiston Respublikasi 
+                    Oliy ta’lim, fan va innovatsiyalar vazirligi 
+                    tomonidan berilgan nodavlat oliy ta'lim 
+                    xizmatlarini ko'rsatish uchun 2024 yil 15 
+                    martdagi berilgan № 240963-sonli litsenziyaga 
+                    asosan faoliyat ko'rsatadi.
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion-item" id="question2">
+            <a href="#question2" class="accordion-link">
+                O'qish to‘lov kontrakt miqdori nech pul?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Bakalavr dasturlari uchun: <br />
+- Kunduzgi: 19 500 000 so‘m  <br />
+- Sirtqi: 13 500 000 so‘m
+
+<br /><br />
+Magistratura dasturlari uchun:<br />
+- Kunduzgi: 25 000 000 so‘m
+                </p>
+            </div>
+        </div>
+
+
+        <div class="accordion-item" id="question3">
+            <a href="#question3" class="accordion-link">
+                Institutda grant o’rinlari mavjudmi?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Ha. Iqtidorli talabalar uchun ta'lim grantlari ajratiladi.
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion-item" id="question4">
+            <a href="#question4" class="accordion-link">
+                TMII diplomi O’zbekistonda tan olinadimi?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    "Ta'lim to'g'risida"gi Qonunga asosan, 
+                    davlat ta'lim standartlari va davlat ta'lim 
+                    talablariga muvofiq ta'lim xizmatlarini 
+                    ko'rsatuvchi nodavlat ta'lim tashkilotlari
+                    bitiruvchilariga davlat tomonidan tasdiqlangan 
+                    namunadagi ta'lim to'g'risidagi hujjat (diplom) beradi.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="accordion-item" id="question5">
+            <a href="#question5" class="accordion-link">
+                Forma kiyish majburiymi?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Institut hududida va binolarida 
+                    tashqi ko'rinish, xulq-atvor 
+                    madaniyatini targ’ib etuvchi 
+                    formada yurish afzalroq.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="accordion-item" id="question6">
+            <a href="#question6" class="accordion-link">
+                Ta’lim krediti olsa bo’ladimi?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Ta'lim krediti bo'yicha Vazirlar 
+                    Mahkamasining (№527, 18.08.2021) 
+                    qaroriga ko'ra hamda 18.07.2022-yildagi 
+                    PQ-323-son O'zbekiston Respublikasi 
+                    Prezidentining qaroriga ko'ra ta'lim 
+                    kreditlari olishingiz mumkin.
+                     Bu bo'yicha banklar bilan aloqaga 
+                     chiqishingiz mumkin.
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion-item" id="question7">
+            <a href="#question7" class="accordion-link">
+                Talabalarga stipendiya beriladimi? 
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Yo’q
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion-item" id="question8">
+            <a href="#question8" class="accordion-link">
+                Institut yotoqxonasi mavjudmi?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Yo’q
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion-item" id="question9">
+            <a href="#question9" class="accordion-link">
+                O’qishni ko’chirish imkoniyati mavjudmi?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Ha. Ro’yxatdan o’tish va imtihon topshirish uchun bir martalik 225.000 to’lov mavjud.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="accordion-item" id="question10">
+            <a href="#question10" class="accordion-link">
+                O’qishni ko’chirish imkoniyati mavjudmi?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    Hozirda TMII ga o’qishni boshqa oliygohdan ko’chirib kelish imkoniyati mavjud emas.
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion-item" id="question11">
+            <a href="#question11" class="accordion-link">
+                Qanday ta’lim turlari mavjud?
+                <i class="icon ion-md-add"></i>
+                <i class="icon ion-md-remove"></i>
+            </a>
+            <div class="answer">
+                <p>
+                    TMII da kunduzgi va sirtqi ta’lim shakllari mavjud.
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+       </div>
+     </div>
+   </section>
+
+
+
+
+    <footer>
+        <div class="footer_logo">
+            <hr />
+            <img src="/img/white.svg" alt="">
+            <hr />
+        </div>
+
+
+        <ul class="social-icon">
+            <li class="icon-elem">
+              <a href="" class="icon">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="" class="icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="" class="icon">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="" class="icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="" class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <div class="footer_bottom">
+            <p>Copyright 	&#169; 2024 TMII. All Rights Reserved</p>
+         </div>
+        
+    </footer>
+    
+
+    
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</body>
+</html>
